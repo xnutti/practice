@@ -1,0 +1,43 @@
+body {
+    background-image: url('images/back.jpg');
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.text1 {
+    color: #F62817;
+    text-align: left;
+}
+
+.text2 {
+    color: #F48A2A;
+    text-align: right;
+}
+
+.text3 {
+    color: #4C8F8A;
+    text-align: center;
+}
+
+.text4 {
+    color: #FFDFA9;
+    text-align justify;
+}
+
+.text5 {
+    color: #FFE9C6;
+    text-align: end;
+}
+
+li {
+  list-style: none; 
+}
+
+li::before {
+  content: '♡'; 
+  color: aliceblue; 
+  margin-right: 0.5em; 
+}
