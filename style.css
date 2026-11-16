@@ -60,3 +60,14 @@ li::before {
     margin: 30px;
     padding: 20px;
 }
+
+.block {
+    display: block;
+    border: 5px solid blue;
+}
+
+.block1 {
+    display: inline;
+    border: 3px solid red;
+    color: green;
+}
