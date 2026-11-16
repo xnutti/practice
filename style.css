@@ -24,7 +24,7 @@ p {
 
 .text4 {
     color: #FFDFA9;
-    text-align justify;
+    text-align: justify;
 }
 
 .text5 {
@@ -40,4 +40,23 @@ li::before {
   content: '♡'; 
   color: aliceblue; 
   margin-right: 0.5em; 
+}
+
+#container {
+    width: 500px;
+    border: 5px solid red;
+    margin: 50px;
+}
+
+#parent {
+    height: 300px;
+    border: 3px solid violet;
+    margin: 30px;
+}
+
+#child1 {
+    height: 200px;
+    border: 3px dotted aquamarine;
+    margin: 30px;
+    padding: 20px;
 }
