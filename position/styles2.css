@@ -1,4 +1,4 @@
-/* задание 2 */
+/* задание 3 */
 
 #elem1 {
     position: absolute;
@@ -50,4 +50,59 @@
     top: 600px;
     left: 250px;
 	border: 1px solid blue;
+}
+
+#elem7 {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 800px;
+    left: 100px;
+	border: 1px solid red;
+}
+#elem8 {
+	position: absolute;
+	top: 860px;
+	left: 160px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+}
+
+#elem9 {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 920px;
+    left: 220px;
+	border: 1px solid blue;
+}
+
+#elem10 {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 1200px;
+    left: 100px;
+	border: 1px solid red;
+    background-color: red;
+}
+#elem11 {
+	position: absolute;
+	top: 1260px;
+	left: 160px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+    background-color: green;
+}
+
+#elem12 {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 1320px;
+    left: 220px;
+	border: 1px solid blue;
+    background-color: blue;
 }
