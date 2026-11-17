@@ -1,16 +1,27 @@
 /* пример 6 */
 
 #elem1 {
-	width: 200px;
-	height: 200px;
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 100px;
+    left: 100px;
 	border: 1px solid red;
 }
 #elem2 {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	
+	top: 400px;
+	left: 400px;
 	width: 100px;
 	height: 100px;
 	border: 1px solid green;
+}
+
+#elem3 {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    top: 250px;
+    left: 250px;
+	border: 1px solid blue;
 }
