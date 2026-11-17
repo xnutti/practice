@@ -1,4 +1,4 @@
-/* пример 3 */
+/* пример 4 */
 
 #elem1 {
 	width: 200px;
@@ -7,8 +7,8 @@
 }
 #elem2 {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	right: 0;
 	
 	width: 100px;
 	height: 100px;
