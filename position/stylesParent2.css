@@ -1,0 +1,24 @@
+#parent {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto; 
+    background-color: yellowgreen;
+}
+#child {
+	position: absolute;
+	top: 30px;  
+	left: 30px; 
+	width: 70px;
+	height: 70px;
+    background-color: aliceblue;
+}
+
+#child2 {
+	position: absolute;
+	top: 200px;  
+	left: 400px; 
+	width: 70px;
+	height: 70px;
+    background-color: aliceblue;
+}
