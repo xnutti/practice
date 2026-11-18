@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#parent {
+    position: relative;
+    top: 10px;
+    left: 350px;
+    width: 750px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 7px 12px;
+}
+
+#parent p {
+    margin: 0;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+#child {
+    float: right;
+    width: 125px;
+    height: 88px;
+    border: 1px solid green;
+    margin-left: 25px;
+}
