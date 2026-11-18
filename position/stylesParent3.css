@@ -1,13 +1,13 @@
 #parent {
 	position: relative;
 	width: 200px;
-	height: 380px;
+	height: 410px;
 	margin: 0 auto; 
     background-color: white;
     border: 1px solid black;
 }
 #child {
-	position: absolute;
+	position: relative;
 	top: 50px;  
 	left: 68px; 
 	width: 70px;
@@ -18,8 +18,8 @@
 }
 
 #child2 {
-	position: absolute;
-	top: 150px;  
+	position: relative;
+	top: 100px;  
 	left: 68px; 
 	width: 70px;
 	height: 70px;
@@ -29,12 +29,71 @@
 }
 
 #child3 {
-	position: absolute;
-	top: 250px;  
+	position: relative;
+	top: 150px;  
 	left: 68px; 
 	width: 70px;
 	height: 70px;
     background-color: green;
     border-radius: 50px;
     border: 1px solid black;
+}
+
+/* задание 4 - зеленый смайл */
+
+#parent2 {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 500px;
+	margin: 0 auto; 
+    background-color: white;
+	border-radius: 300px;
+	background-color: lightgreen;
+}
+
+/* левый глаз */
+
+#child4 { 
+	position: absolute;
+	top: 100px;  
+	left: 68px; 
+	width: 70px;
+	height: 70px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+/* правый глаз */
+
+#child5 {
+	position: absolute;
+	top: 100px;  
+	left: 250px; 
+	width: 70px;
+	height: 70px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+/* нос */
+
+#child6 {
+	position: absolute;
+	top: 180px;  
+	left: 170px; 
+	width: 50px;
+	height: 50px;
+    background-color: aliceblue;
+}
+
+/* рот */
+
+#child7 {
+	position: absolute;
+	top: 280px;  
+	left: 103px; 
+	width: 190px;
+	height: 30px;
+    background-color: aliceblue;
 }
