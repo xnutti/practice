@@ -158,3 +158,31 @@
 	border-bottom: 10px solid aliceblue;
 	border-radius: 0% 0% 80% 80%;
 }
+
+/* задание блок с элементами */
+
+#parent4 {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid red;
+}
+#child4_12 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#child4_13 {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
