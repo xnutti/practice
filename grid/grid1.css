@@ -37,3 +37,17 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+#parent4 {
+    position: relative;
+    top: 150px;
+	display: grid;
+	grid-template-columns: 100px 150px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+}
+#parent4 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
