@@ -84,13 +84,14 @@
 	border: 1px solid green;
 }
 
-/* колонка */
+/* flex-direction row-reverse */
 
 #parent3 {
     position: relative;
     top: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
