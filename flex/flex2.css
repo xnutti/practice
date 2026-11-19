@@ -128,13 +128,14 @@
 	border: 1px solid green;
 }
 
-/* колонка наоборот */
+/* flex-direction row-reverse/end */
 
 #parent4 {
     position: relative;
     top: 150px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
