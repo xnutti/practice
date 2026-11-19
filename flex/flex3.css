@@ -176,14 +176,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction column-reverse */
+/* flex-direction строка снизу слева направо */
 
 #parent5 {
     position: relative;
     top: 200px;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
@@ -215,6 +216,51 @@
 }
 
 #elem25 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction строка снизу слева направо */
+
+#parent6 {
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem26 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem27 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem28 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem29 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem30 { 
 	width: 100px;
 	height: 50px;
 	border: 1px solid green;
