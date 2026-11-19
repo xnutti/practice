@@ -41,7 +41,7 @@
 	border: 1px solid green;
 }
 
-/* flex-direction column */
+/* flex-direction справа снизу */
 
 #parent2 {
     position: relative;
@@ -86,14 +86,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction row-reverse */
+/* flex-direction колонна слева */
 
 #parent3 {
     position: relative;
     top: 100px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
