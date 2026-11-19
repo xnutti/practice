@@ -176,15 +176,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction строка снизу слева направо */
+/* flex-direction колонна по центру */
 
 #parent5 {
     position: relative;
     top: 200px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
