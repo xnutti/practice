@@ -40,13 +40,14 @@
 	border: 1px solid green;
 }
 
-/* наоборот */
+/* flex-direction column */
 
 #parent2 {
     position: relative;
     top: 50px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: flex-end;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
