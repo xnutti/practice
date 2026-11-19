@@ -131,14 +131,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction row-reverse/end */
+/* практика 4 */
 
 #parent4 {
     position: relative;
     top: 150px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
@@ -175,14 +176,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction column-reverse */
+/* практика 5    */ 
 
 #parent5 {
     position: relative;
     top: 200px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
