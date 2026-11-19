@@ -9,3 +9,17 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+#parent2 {
+    position: relative;
+    top: 50px;
+	display: grid;
+	grid-template-columns: 200px 200px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#parent2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
