@@ -131,15 +131,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction колонна справа снизу */
+/* flex-direction центр с отступами */
 
 #parent4 {
     position: relative;
     top: 150px;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
