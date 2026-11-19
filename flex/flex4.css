@@ -221,15 +221,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction строка снизу слева направо */
+/* flex-direction колонна по центру сверху вниз */
 
 #parent6 {
     position: relative;
     top: 250px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
@@ -261,49 +261,6 @@
 }
 
 #elem30 { 
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-}
-
-#parent7 {
-    position: relative;
-    top: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-	width: 600px;
-	height: 300px;
-	margin: 0 auto; 
-	border: 1px solid red;
-}
-
-#elem31 { 
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-}
-
-#elem32 { 
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-}
-
-#elem33 {
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-}
-
-#elem34 {
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-}
-
-#elem35 { 
 	width: 100px;
 	height: 50px;
 	border: 1px solid green;
