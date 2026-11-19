@@ -1,0 +1,310 @@
+/* flex-direction полностью центр */
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem1 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem2 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem3 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem4 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem5 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction полностью центр row-reverse */
+
+#parent2 {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem6 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem7 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem8 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem9 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem10 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction колонна слева */
+
+#parent3 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem11 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem12 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem13 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem14 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem15 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction колонна справа снизу */
+
+#parent4 {
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem16 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem17 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem18 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem19 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem20 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction строка снизу слева направо */
+
+#parent5 {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem21 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem22 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem23 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem24 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem25 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+/* flex-direction строка снизу слева направо */
+
+#parent6 {
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem26 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem27 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem28 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem29 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem30 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#parent7 {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem31 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem32 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem33 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem34 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem35 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
