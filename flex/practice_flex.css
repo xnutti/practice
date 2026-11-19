@@ -86,14 +86,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction row-reverse */
+/* практика 3 */
 
 #parent3 {
     position: relative;
     top: 100px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
