@@ -1,3 +1,5 @@
+/* задача 1 */
+
 #parent {
 	display: grid;
 	grid-template-columns: 200px 400px;
@@ -9,6 +11,8 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+/* задача 2 */
 
 #parent2 {
     position: relative;
@@ -24,6 +28,8 @@
 	border: 1px solid #696989;
 }
 
+/* задача 3 */
+
 #parent3 {
     position: relative;
     top: 100px;
@@ -38,6 +44,8 @@
 	border: 1px solid #696989;
 }
 
+/* задача 4 */
+
 #parent4 {
     position: relative;
     top: 150px;
@@ -51,3 +59,36 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+/* задача 5 третий столбец в два раза больше первого и второго */
+
+#parent5 {
+    position: relative;
+    top: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+#parent5 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+/* одинаковая ширина через fr */
+
+#parent6 {
+    position: relative;
+    top: 250px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+}
+#parent6 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
