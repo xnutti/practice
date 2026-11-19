@@ -41,14 +41,15 @@
 	border: 1px solid green;
 }
 
-/* flex-direction column */
+/* практика 2 */
 
 #parent2 {
     position: relative;
     top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto; 
