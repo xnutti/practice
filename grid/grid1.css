@@ -334,3 +334,37 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+/* плиточка 1 */
+
+#parent24 {
+	position: relative;
+    top: 1150px;
+	display: grid;
+	grid-template: 50px repeat(2, 100px) 200px / 50px repeat(2, 100px) 200px ;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+	height: 150px;
+}
+#parent24 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+/* плиточка 2 */
+
+#parent25 {
+	position: relative;
+    top: 1200px;
+	display: grid;
+	grid-template: 100px 150px / 2fr 1fr 1fr 2fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+	height: 250px;
+}
+#parent25 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
