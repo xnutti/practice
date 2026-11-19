@@ -1,0 +1,38 @@
+#parent {
+    display: flex;
+    flex-direction: row;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem1 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem2 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem3 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem4 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem5 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
