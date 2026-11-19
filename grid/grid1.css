@@ -120,3 +120,32 @@
 	border: 1px solid #696989;
 }
 
+/* пиксели и fr */
+
+#parent9 {
+    position: relative;
+    top: 400px;
+	display: grid;
+	grid-template-columns: 100px 1.5fr 1.5fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+}
+#parent9 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#parent10 {
+    position: relative;
+    top: 450px;
+	display: grid;
+	grid-template-columns: 100px 1fr 1.5fr 100px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+}
+#parent10 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
