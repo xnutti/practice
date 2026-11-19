@@ -251,3 +251,17 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+#parent18 {
+	position: relative;
+    top: 850px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 200px;
+}
+#parent18 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
