@@ -177,3 +177,33 @@
 	padding: 10px;
 	border: 1px solid #696989;
 }
+
+/* функция repeat */
+
+#parent13 {
+    position: relative;
+    top: 600px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 450px;
+}
+#parent13 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#parent14 {
+    position: relative;
+    top: 650px;
+	display: grid;
+	grid-template-columns: repeat(4, 100px) repeat(3, 2fr); 
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 500px;
+}
+#parent14 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
