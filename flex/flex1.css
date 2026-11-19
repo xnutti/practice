@@ -80,3 +80,45 @@
 	border: 1px solid green;
 }
 
+/* колонка */
+
+#parent3 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+	border: 1px solid red;
+}
+
+#elem11 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem12 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem13 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem14 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+#elem15 { 
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
