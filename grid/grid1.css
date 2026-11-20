@@ -525,3 +525,34 @@
 	grid-row: 3 / 4; /* 5 */
 }
 
+/* grid-column объединение столбцов */
+
+/* 1 */
+
+#parent32 {
+    position: relative;
+	top: 1550px;
+    display: grid;
+    width: 800px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent32 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem210  { 
+	grid-column: 1 / 2; /* 1 */
+}
+#elem211 { 
+	grid-column: 2 / 4; /* 2 */
+}
+#elem212 { 
+	grid-column: 1 / 3; /* 3 */
+}
+#elem213 { 
+	grid-column: 3 / 4; /* 4 */
+}
