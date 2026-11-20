@@ -455,3 +455,36 @@
 #elem199 { 
 	grid-row: 3 / 4; /* 5 */
 }
+
+#parent30 {
+    position: relative;
+	top: 1450px;
+    display: grid;
+	grid-template-columns: 2fr 2fr;
+    width: 800px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent30 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem200  { 
+	grid-row: 1 / 5; /* 1 */
+}
+#elem201 { 
+	grid-row: 1 / 2; /* 2 */
+}
+#elem202 { 
+	grid-row: 2 / 3; /* 3 */
+}
+#elem203 { 
+	grid-row: 3 / 4; /* 4 */
+}
+#elem204 { 
+	grid-row: 4 / 5; /* 5 */
+}
+
