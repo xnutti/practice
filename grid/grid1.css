@@ -386,3 +386,22 @@
 	border: 1px solid #696989;
 }
 
+/* плиточка 4 */
+
+#parent27 {
+    position: relative;
+	top: 1300px;
+    display: grid;
+	grid-template: 4fr 2fr 4fr 2fr / 5fr 3fr 3fr;
+    width: 800px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent27 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+
