@@ -556,3 +556,36 @@
 #elem213 { 
 	grid-column: 3 / 4; /* 4 */
 }
+
+/* 2 */
+
+#parent33 {
+    position: relative;
+	top: 1600px;
+    display: grid;
+    width: 700px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent33 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem214  { 
+	grid-column: 1 / 4; /* 1 */
+}
+#elem215 { 
+	grid-column: 1 / 2; /* 2 */
+}
+#elem216 { 
+	grid-column: 2 / 3; /* 3 */
+}
+#elem217 { 
+	grid-column: 3 / 4; /* 4 */
+}
+#elem218 { 
+	grid-column: 1 / 4; /* 5 */
+}
