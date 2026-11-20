@@ -913,3 +913,57 @@
     padding: 10px;
     border: 1px solid #696989;
 }
+
+/* плитка + отступы 1 */
+
+#parent43 {
+    position: relative;
+    top: 2150px;
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+
+#parent43 > div {
+    height: 100px;
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+/* плитка + отступы 2 */
+
+#parent44 {
+    position: relative;
+    top: 2200px;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr) repeat(2, 2fr);
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+
+#parent44 > div {
+    height: 100px;
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+/* плитка + отступы 3 */
+
+#parent45 {
+    position: relative;
+    top: 2250px;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+}
+
+#parent45 > div {
+    height: 100px;
+	padding: 10px;
+	border: 1px solid #696989;
+}
