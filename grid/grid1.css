@@ -864,13 +864,52 @@
     column-gap: 20%;
 	row-gap: 25%;
 	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    width: 900px;
+    width: 600px;
     height: 600px;
     padding: 10px;
     border: 2px solid #696989;
 }
 
 #parent40 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+/* таблица со всеми отступами 2 */
+
+#parent41 {
+    position: relative;
+    top: 2000px;
+    display: grid;
+    gap: 10px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent41 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+/* таблица со всеми отступами 3 (10px and 5%) */
+
+#parent42 {
+    position: relative;
+    top: 2050px;
+    display: grid;
+    column-gap: 10px;
+	row-gap: 5%;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent42 > div {
     padding: 10px;
     border: 1px solid #696989;
 }
