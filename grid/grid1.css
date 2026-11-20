@@ -422,3 +422,36 @@
     border: 1px solid #696989;
 }
 
+/* grid-row объединение рядов */
+
+#parent29 {
+    position: relative;
+	top: 1400px;
+    display: grid;
+	grid-template-columns: 2fr 2fr;
+    width: 800px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent29 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem195  { 
+	grid-row: 1 / 2; /* 1 */
+}
+#elem196 { 
+	grid-row: 2 / 3; /* 2 */
+}
+#elem197 { 
+	grid-row: 1 / 2; /* 3 */
+}
+#elem198 { 
+	grid-row: 2 / 4; /* 4 */
+}
+#elem199 { 
+	grid-row: 3 / 4; /* 5 */
+}
