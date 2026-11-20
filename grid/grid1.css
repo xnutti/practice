@@ -423,6 +423,7 @@
 }
 
 /* grid-row объединение рядов */
+/* 1 */
 
 #parent29 {
     position: relative;
@@ -456,6 +457,8 @@
 	grid-row: 3 / 4; /* 5 */
 }
 
+/* 2 */
+
 #parent30 {
     position: relative;
 	top: 1450px;
@@ -486,5 +489,39 @@
 }
 #elem204 { 
 	grid-row: 4 / 5; /* 5 */
+}
+
+/* 3 */
+
+#parent31 {
+    position: relative;
+	top: 1500px;
+    display: grid;
+	grid-template-columns: 2fr 2fr;
+    width: 800px;
+    height: 400px;
+	padding: 10px;
+    border: 2px solid #696989;
+}
+
+#parent31 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#elem205  { 
+	grid-row: 1 / 2; /* 1 */
+}
+#elem206 { 
+	grid-row: 1 / 3; /* 2 */
+}
+#elem207 { 
+	grid-row: 2 / 3; /* 3 */
+}
+#elem208 { 
+	grid-row: 3 / 4; /* 4 */
+}
+#elem209 { 
+	grid-row: 3 / 4; /* 5 */
 }
 
