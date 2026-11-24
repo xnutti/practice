@@ -1,0 +1,21 @@
+#elem1 {
+    width: 80%;
+    height: auto;
+    border: 1px solid green;
+    column-count: auto;
+	column-width: 300px;
+	text-align: justify;
+}
+
+#elem2 {
+    position: relative;
+    top: 20px;
+    width: 1000px;
+    height: auto;
+    border: 1px solid green;
+    column-count: 4;
+    column-width: auto;
+    column-gap: 30px;
+    column-rule: 1px dashed grey;
+	text-align: justify;
+}
