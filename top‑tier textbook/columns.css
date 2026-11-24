@@ -50,3 +50,11 @@ p::first-letter {
     color: red;
     font-size: 27px;
 }
+
+button {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+    pointer-events: none;
+}
