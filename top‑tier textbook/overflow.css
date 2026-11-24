@@ -99,3 +99,35 @@
     overflow-wrap: break-word;
     word-break: break-word;
 }
+
+#block11 {
+    position: relative;
+    top: 500px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+#block12 {
+    position: relative;
+    top: 350px;
+    left: 250px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+#block13 {
+    position: relative;
+    top: 350px;
+    left: 250px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
