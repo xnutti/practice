@@ -100,3 +100,19 @@ span {
     white-space: pre-line;
     border: 1px solid red;
 }
+
+#text4_tab   {
+    position: relative;
+    top: 100px;
+	tab-size: 4;
+	white-space: pre;
+	border: 1px solid black;
+}
+
+#text5_tab   {
+    position: relative;
+    top: 120px;
+	tab-size: 2;
+	white-space: pre;
+	border: 1px solid black;
+}
