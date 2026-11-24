@@ -1,0 +1,52 @@
+#block1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    overflow: scroll;
+}
+
+#block2 {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    overflow: hidden;
+}
+
+#block3 {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgreen;
+    overflow: auto;
+}
+
+#block4 {
+    position: relative;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgreen;
+    overflow: hidden;
+}
+
+#block5 {
+    position: relative;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgreen;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#block6 {
+    position: relative;
+    top: 250px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: scroll;
+}
