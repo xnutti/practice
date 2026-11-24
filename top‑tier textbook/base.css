@@ -86,3 +86,17 @@ span {
     white-space: nowrap;
     border: 1px solid red;
 }
+
+#text2 {
+    width: 200px;
+    white-space: pre-wrap;
+    border: 1px solid red;
+}
+
+#text3 {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    white-space: pre-line;
+    border: 1px solid red;
+}
