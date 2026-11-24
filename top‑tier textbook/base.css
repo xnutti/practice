@@ -34,6 +34,8 @@ span {
     text-align-last: right;
 }
 
+/* текст из "гарри поттер" */
+
 .the_9th::first-letter {
 	color: red;
 	font-size: 27px;
@@ -52,7 +54,29 @@ span {
 	font-size: 27px;
 }
 
-.the_1th::first-letter {
+.the_12th::first-letter {
 	color: red;
 	font-size: 27px;
+}
+
+/* курсив */
+
+.the_13th::first-line {
+	color: red;
+    font-style: italic;
+}
+
+.the_14th::first-line {
+	color: red;
+	font-style: italic;
+}
+
+.the_15th::first-line {
+	color: red;
+	font-style: italic;
+}
+
+.the_16th::first-line {
+	color: red;
+	font-style: italic;
 }
