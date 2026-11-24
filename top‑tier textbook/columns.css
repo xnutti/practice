@@ -28,3 +28,25 @@
     border: 1px solid green;
     user-select: none;
 }
+
+#text1 {
+    position: relative;
+    top: 40px;
+}
+#text2 {
+    position: relative;
+    top: 50px;
+}
+#text3 {
+    position: relative;
+    top: 60px;
+}
+
+span {
+    user-select: none;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 27px;
+}
