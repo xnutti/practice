@@ -50,3 +50,52 @@
     border: 1px solid green;
     overflow: scroll;
 }
+
+#block7 {
+    position: relative;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+#block8 {
+    position: relative;
+    top: 350px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+#block9 {
+    position: relative;
+    top: 400px;
+    width: 100px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#block10 {
+    position: relative;
+    top: 450px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#block10:hover {
+    white-space: normal;
+    height: auto;
+    overflow: visible;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
