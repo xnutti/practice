@@ -1,0 +1,58 @@
+.first {
+    letter-spacing: 1px;
+}
+
+.second {
+    letter-spacing: 3px;
+}
+
+.third {
+    letter-spacing: -1px;
+}
+
+.fourth {
+    word-spacing: 3px;
+}
+
+.fifth {
+    word-spacing: 0px;
+}
+
+.sixth {
+    text-transform: uppercase;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.FCs {
+    text-transform: capitalize;
+}
+
+.the_8th {
+    text-align-last: right;
+}
+
+.the_9th::first-letter {
+	color: red;
+	font-size: 27px;
+}
+
+.the_9th::first-line {
+	color: red;
+}
+.the_10th::first-letter {
+	color: red;
+	font-size: 27px;
+}
+
+.the_11th::first-letter {
+	color: red;
+	font-size: 27px;
+}
+
+.the_1th::first-letter {
+	color: red;
+	font-size: 27px;
+}
