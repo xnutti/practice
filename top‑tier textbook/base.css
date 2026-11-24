@@ -80,3 +80,9 @@ span {
 	color: red;
 	font-style: italic;
 }
+
+#text1 {
+    width: 200px;
+    white-space: nowrap;
+    border: 1px solid red;
+}
