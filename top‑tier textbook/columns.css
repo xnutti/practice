@@ -219,3 +219,19 @@ td {
     vertical-align: bottom;
     text-align: right;
 }
+
+.table_10 {
+    position: relative;
+    top: 300px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+
+    /* закомментировать ненужное: */
+
+    table-layout: fixed;
+    /* table-layout: auto;
+    table-layout: inherit; */
+}
