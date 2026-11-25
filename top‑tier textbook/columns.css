@@ -145,3 +145,77 @@ td {
 	width: 400px;
 	border: 1px solid black;
 }
+
+/* выравнивание по центру */
+.fiftht {
+    position: relative;
+    top: 200px;
+    border-spacing: 10px;
+	border-collapse: separate;
+    empty-cells: hide;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+}
+
+.fiftht td {
+    vertical-align: middle;
+}
+
+.sixtht {
+    position: relative;
+    top: 220px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+}
+
+.sixtht td {
+    vertical-align: top;
+}
+
+.seventht {
+    position: relative;
+    top: 240px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+}
+
+.seventht td {
+    vertical-align: top;
+    text-align: right;
+}
+
+.eightht {
+    position: relative;
+    top: 260px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+}
+
+.eightht td {
+    vertical-align: middle;
+}
+
+.ninetht {
+    position: relative;
+    top: 280px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+    height: 200px;
+	border: 1px solid black;
+}
+
+.ninetht td {
+    vertical-align: bottom;
+    text-align: right;
+}
