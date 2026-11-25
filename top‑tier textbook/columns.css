@@ -93,3 +93,45 @@ a {
     position: relative;
     top: 90px;
 }
+
+table {
+    position: relative;
+    top: 100px;
+    border-collapse: collapse;
+	width: 400px;
+	border: 1px solid black;
+}
+td {
+    color: aliceblue;
+	border: 1px solid black;
+	text-align: center;
+    background-color: green;
+}
+
+.onet {
+    position: relative;
+    top: 120px;
+    border-spacing: 10px;
+	border-collapse: separate;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.twot {
+    position: relative;
+    top: 140px;
+    border-spacing: 10px 30px;
+	border-collapse: separate;
+	width: 400px;
+	border: 1px solid black;
+}
+
+
+.threet {
+    position: relative;
+    top: 160px;
+    border-spacing: 10px 40px;
+	border-collapse: separate;
+	width: 400px;
+	border: 1px solid black;
+}
