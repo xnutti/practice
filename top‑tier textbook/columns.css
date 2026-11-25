@@ -56,5 +56,40 @@ button {
     height: 50px;
     position: relative;
     top: 70px;
-    pointer-events: none;
+    pointer-events: none; 
+}
+
+a {
+    position: relative;
+    top: 80px;
+    left: 100px;
+    /* закомментировать, чтобы работало наведение курсора: */
+	pointer-events: none;
+
+    cursor: not-allowed;
+}
+
+#text11::selection {
+    color: white;
+    background-color: green;    
+}
+
+#text22::selection {
+    color: white;
+    background-color: green;    
+}
+
+#text33::selection {
+    color: white;
+    background-color: green;    
+}
+
+.text11::selection {
+    color: white;
+    background-color: green;    
+}
+
+.text11 {
+    position: relative;
+    top: 90px;
 }
