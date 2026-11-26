@@ -60,3 +60,16 @@
     position: relative;
     top: 160px;
 }
+
+#form11 {
+    position: relative;
+    top: 180px;
+}
+
+/* сразу 3 и 4 задание */
+
+#txt1 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
