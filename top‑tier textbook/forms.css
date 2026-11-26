@@ -112,3 +112,31 @@
     height: 100px;
     resize: both;
 }
+
+#txt7 {
+    width: 200px;
+    height: 100px;  
+}
+
+#txt8::placeholder {
+   color: green;
+}
+
+#txt7::placeholder {
+   color: green;
+}
+
+#txt9::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgreen;
+}
+
+#txt10::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgreen;  
+}
+
+#txt10 {
+    width: 300px;
+    height: 100px;
+}
