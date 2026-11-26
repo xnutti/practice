@@ -73,3 +73,18 @@
     height: 200px;
     padding: 20px;
 }
+
+#form12 {
+    position: relative;
+    top: 180px;
+}
+
+#form12 input {
+    width: 300px;
+    height: 30px;
+}
+
+#txt2 {
+    width: 300px;
+    height: 200px;
+}
