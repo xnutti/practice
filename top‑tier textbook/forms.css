@@ -38,3 +38,13 @@
 #form6 input {
     color: red;
 }
+
+#form7 {
+    position: relative;
+    top: 100px;
+}
+
+#form8 {
+    position: relative;
+    top: 120px;
+}
