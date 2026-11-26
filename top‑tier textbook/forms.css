@@ -184,3 +184,11 @@
 #inp2:focus {
     box-shadow: 0 0 5px 2px red;
 }
+
+#elem1:checked + label {
+	color: red;
+}
+
+#elem2:checked + label {
+	color: red;
+}
