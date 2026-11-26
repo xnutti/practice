@@ -308,13 +308,56 @@ li:hover::after {
 }
 
 #parent {
-    position: absolute;
-    top: 380px;
+    position: relative;
+    top: 340px;
 	border: 1px solid green;
 }
 
 #child {
+    position: relative;
 	width: calc(100% - 100px);
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+#parent2 {
+    position: relative;
+    top: 360px;
+	border: 1px solid green;
+}
+
+#child2 {
+    position: relative;
+	width: calc(50% + 200px);
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+#parent3 {
+    position: relative;
+    top: 380px;
+	border: 1px solid green;
+}
+
+#child3 {
+    position: relative;
+	width: max(300px, 50%);
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+#parent4 {
+    position: relative;
+    top: 400px;
+	border: 1px solid green;
+}
+
+#child4 {
+    position: relative;
+	width: min(400px, 30%);
 	height: 100px;
 	margin: 0 auto;
 	border: 1px solid red;
