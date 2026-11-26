@@ -192,3 +192,12 @@
 #elem2:checked + label {
 	color: red;
 }
+
+#inp4:disabled {
+	border: 2px solid red;
+}
+
+#form18 {
+    position: relative;
+    top: 360px;
+}
