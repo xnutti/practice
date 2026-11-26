@@ -1,0 +1,40 @@
+#form2 {
+    position: relative;
+    top: 20px;
+}
+
+#form2 input {
+    border: 1px solid red;
+}
+
+#form3 {
+    position: relative;
+    top: 40px;
+}
+
+#form3 input {
+    height: 30px;
+}
+
+#form4 {
+    position: relative;
+    top: 60px;
+}
+
+#form4 input {
+    height: 30px;
+}
+
+#form5 {
+    position: relative;
+    top: 60px;
+}
+
+#form6 {
+    position: relative;
+    top: 80px;
+}
+
+#form6 input {
+    color: red;
+}
