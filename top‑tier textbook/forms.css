@@ -171,3 +171,16 @@
     width: 200px;
     height: 50px;
 }
+
+#form17 {
+    position: relative;
+    top: 340px;
+}
+
+#inp1:focus {
+    border: 3px solid red;
+}
+
+#inp2:focus {
+    box-shadow: 0 0 5px 2px red;
+}
