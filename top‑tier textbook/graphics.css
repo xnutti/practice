@@ -244,3 +244,57 @@
     border: 1px solid black;
     box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
 }
+
+#elem12 {
+    position: relative;
+    top: 300px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(yellow, white);
+}
+
+#elem13 {
+    position: relative;
+    top: 350px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow, white);
+}
+
+#elem14 {
+    position: relative;
+    top: 400px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to left, yellow, white);
+}
+
+#elem15 {
+    position: relative;
+    top: 450px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(-45deg, red, white);
+}
+
+#elem16 {
+    position: relative;
+    top: 500px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to right, red, blue);
+}
+
+#elem16 {
+    position: relative;
+    top: 550px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, white 50%, red 50%);
+}
