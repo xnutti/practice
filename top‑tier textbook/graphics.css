@@ -142,3 +142,105 @@
     text-shadow: -7px -10px black, 7px 10px 1px blue;
 }
 
+#elem1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 15px 5px red;
+}
+
+#elem2 {
+    position: relative;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px -15px green;
+}
+
+#elem3 {
+    position: relative;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 5px black;
+}
+
+#elem4 {
+    position: relative;
+    top: 80px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 4px 3px 3px black;
+}
+
+#elem5 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black, -10px -10px 0px black;
+}
+
+#elem6 {
+    position: relative;
+    top: 120px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 0 -30px 0 0px red, 30px 0 0 0px black, 0 30px 0 0px yellow, -30px 0 0 0px green;
+}
+
+#elem7 {
+    position: relative;
+    top: 160px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 15px 0px black;
+}
+
+#elem8 {
+    position: relative;
+    top: 160px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 15px 10px black;
+}
+
+#elem9 {
+    position: relative;
+    top: 160px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px 15px 10px black, -20px -15px 10px black;
+}
+
+#elem10 {
+    position: relative;
+    top: 200px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px black;
+}
+
+#elem11 {
+    position: relative;
+    top: 250px;;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 10px blue, inset -5px -5px 10px red;
+}
